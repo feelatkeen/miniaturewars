@@ -158,7 +158,7 @@ setInterval(function(){
 			$("#gaemrecord").text("Мир продержался " + day + " дней.");
 			gamestart = 0;
 		}
-		if (veroyatnost < 500){
+		if (veroyatnost == 1){
 			$("#gameover").show();
 			$("#gaming").hide();
 			$("#prichina").text("В стране " + gosudarstva[strana1] + " создали самое мощное ядерное оружие. Его испытания привели к исчезновению человечества с лица земли.");
