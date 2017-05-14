@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+    <title>Miniature Wars</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+  </head>
+  <body>
+  	<div id="logogame">
+  		<h1><img src="logo.png" height=64> Miniature Wars</h1>
+  	</div>
+    <div id="startmenu">
+      <img src="logo.png">
+      <p>Miniature Wars</p>
+    </div>
+    <div id="namechoose">
+    	<input id="gosname" placeholder="Название государства">
+    	<br>
+    	<input id="gosimg" placeholder="Ссылка на флаг">
+    	<br>
+    	<button id="btnplay">Играть</button>
+    </div>
+    <div id="gaming">
+    	<p id="gosinf">Государство: undefined</p>
+    	<p id="gosinf2">Население:0|Территория:0</p>
+    	<img id="myflag" height=64 width=128>
+    	<p id="gostatus">Мир</p>
+    	<p id="worldday">День 0</p>
+    	<div id="napadenie"><p>Напасть на error? </p><button id="napyes">Да</button> <button id="napno">Нет</button></div>
+    	<div id="events">
+    	</div>
+    </div>
+    <div id="gameover">
+    	<p>Игра окончена.</p>
+    	<p id="prichina">error</p>
+    	<p id="gaemrecord">Вы продержались 0 дней.</p>
+    	<button id="playagain">Играть снова</button>
+    </div>
+    <p>feelatkeen 2017</p>
+    <script src="game.js"></script>
+  </body>
+</html>

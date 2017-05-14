@@ -1,0 +1,121 @@
+body{
+	font-family:'Open Sans Condensed', sans-serif;
+}
+#startmenu{
+	text-align: center;
+	margin-top:5%;
+	font-family:'Open Sans Condensed', sans-serif;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-top-color: black;
+	border-top-style: solid;
+	border-bottom-width: 2px;
+}
+#namechoose{
+	text-align:center;
+	margin-top: 10px;
+}
+#namechoose input{
+	border-style: solid;
+	border-color: #f2f2f2;
+	border-width: 3px;
+	border-radius: 32px;
+	background: white;
+	padding: 4;
+	margin-bottom: 5px;
+}
+button{
+	padding: 5;
+	border-style: solid;
+	border-color: #f2f2f2;
+	border-width: 3px;
+	border-radius: 32px;
+	background: white;
+}
+button:hover{
+	padding: 5;
+	border-style: solid;
+	border-color: #a6a6a6;
+	border-width: 3px;
+	border-radius: 32px;
+	background: #f2f2f2;
+}
+#logogame{
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size:12px;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+#gaming{
+	margin-top:5px;
+	text-align:center;
+}
+#events{
+	overflow: scroll;
+	margin:0 auto;
+	width: 640px;
+	height: 480px;
+	border-style:solid;
+	border-width:3px;
+	border-color:black;
+}
+#eventwar{
+	margin-top:5px;
+	margin-bottom:5px;
+	background: #ffe6e6;
+	border-left-width:5px;
+	border-left-color:#4d0000;
+	border-left-style:solid;
+	padding-top:5;
+	color:black;
+	padding-bottom:5;
+	border-radius:3px;
+}
+#napadenie{
+	margin-top:5px;
+	margin-bottom:5px;
+	background: #f2f2f2;
+	border-left-width:5px;
+	border-left-color: #737373;
+	border-left-style:solid;
+	padding-top:5;
+	padding-bottom:5;
+	border-radius:3px;
+}
+#eventwar img{
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+}
+#eventdeath{
+	margin-top:5px;
+	margin-bottom:5px;
+	background:black;
+	color:white;
+	border-left-width:5px;
+	border-left-color:gray;
+	border-left-style:solid;
+	padding-top:5;
+	padding-bottom:5;
+	border-radius:3px;
+}
+#eventwin{
+	margin-top:5px;
+	margin-bottom:5px;
+	background:#e6ffe6;
+	border-left-width:5px;
+	border-left-color:#004d00;
+	border-left-style:solid;
+	padding-top:5;
+	padding-bottom:5;
+	border-radius:3px;
+}
+#gameover{
+	text-align:center;
+}
+img{
+	margin-left:2px;
+	margin-right:2px;
+}
